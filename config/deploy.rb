@@ -11,7 +11,7 @@ role :db,  "46.51.240.22", :primary => true # This is where Rails migrations wil
 role :db,  "46.51.240.22"
 
 set :user, "apps"
-set :deploy_to, "home/apps/CapistranoProject"
+set :deploy_to, "/home/apps/CapistranoProject"
 
 set :use_sudo, false
 set :run_method, :run
